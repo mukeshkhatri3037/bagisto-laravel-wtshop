@@ -1,0 +1,26 @@
+{
+    "name": "bagisto/laravel-wtshop",
+    "license": "MIT",
+    "description" : "Shop package for store front and customers",
+    "authors": [
+        {
+            "name": "Bagisto",
+            "email": "support@bagisto.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Webkul\\WtShop\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webkul\\WtShop\\Providers\\WtShopServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}
